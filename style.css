@@ -12,7 +12,7 @@ h1{
     margin-right: 20px;
     padding-left: 20px;
     padding-right: 20px;
-    background-image: linear-gradient(to bottom right white,blue,green,tomato);
+    background-image: linear-gradient(to bottom right,blue,white,green);
     margin: 100px;
     padding: 30px;
     border-radius: 15px;
@@ -20,5 +20,28 @@ h1{
     
 
 }
+form{
+    text-align: center;
+
+}
+.bar{
+    width: 100%;
+    height: 30px;
+    display: flex;
+}
+.bar li{
+    height: 100%;
+    width:100px ;
+    border-right: 1px solid blue,white,yellow;
+}
+.bar li a{
+    color: black;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+
+}
+
+
 
     
